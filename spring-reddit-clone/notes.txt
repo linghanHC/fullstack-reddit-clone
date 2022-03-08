@@ -1,0 +1,25 @@
+POST http://localhost:8080/api/auth/signup
+{
+    "username": "user3",
+    "email":"user3@abc.com",
+    "password":"passowrd"
+}
+
+POST http://localhost:8080/api/auth/login
+{
+    "username": "user3",
+    "password":"passowrd"
+}
+
+POST http://localhost:8080/api/auth/refresh/token
+{
+    "refreshToken": "3e621256-c9a2-4167-9214-8e88e69a99e2",
+    "username":"user3"
+}
+
+
+GET Authorization , Bearer Token
+
+GET http://localhost:8080/api/subreddit
+
+GET http://localhost:8080/api/subreddit/1
